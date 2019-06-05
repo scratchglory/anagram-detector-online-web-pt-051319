@@ -12,8 +12,8 @@ class Anagram
 # 
   def match(array_words)
     binding.pry
+    
     match.each do |word|
-      
       if word == array_words
         puts word
       end
