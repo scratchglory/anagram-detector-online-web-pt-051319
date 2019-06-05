@@ -11,9 +11,10 @@ class Anagram
 # compare each word of that array to the word that the class is initialized with 
 # 
   def match(array_words)
-    binding.pry
-    
+    # binding.pry
+    array = []
     match.each do |word|
+      
       if word == array_words
         puts word
       end
