@@ -4,8 +4,8 @@ require 'pry'
 class Anagram
   attr_accessor :word 
   
-  def initialize (array_words)
-    @array_words = array_words
+  def initialize (word)
+    @word = word
   end
   
 # compare each word of that array to the word that the class is initialized with 
