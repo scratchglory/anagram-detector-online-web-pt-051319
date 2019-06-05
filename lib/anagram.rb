@@ -12,12 +12,10 @@ class Anagram
 # 
   def match(array_words)
     # binding.pry
-    array = []
-    array_words.filter do |word|
-      
-      if word == array_words.split
-        puts word
-      end
+    
+    array_words.filter do |word_split|
+    # check if word_split is an anagram of our instance
+      word_split == @word
     end
   end
   
