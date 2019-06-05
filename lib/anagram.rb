@@ -13,7 +13,7 @@ class Anagram
   def match(array_words)
     # binding.pry
     array = []
-    match.each do |word|
+    match.filter do |word|
       
       if word == array_words
         puts word
