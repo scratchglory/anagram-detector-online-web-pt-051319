@@ -15,7 +15,8 @@ class Anagram
     
     array_words.filter do |word_split|
     # check if word_split is an anagram of our instance
-     binding.pry
+    # binding.pry
+    
       word_split.split("").sort == @word.split("").sort
        
     end
