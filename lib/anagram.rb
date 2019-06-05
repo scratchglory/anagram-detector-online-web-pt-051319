@@ -13,9 +13,9 @@ class Anagram
   def match(array_words)
     # binding.pry
     array = []
-    match.filter do |word|
+    array_words.filter do |word|
       
-      if word == array_words
+      if word == array_words.split
         puts word
       end
     end
